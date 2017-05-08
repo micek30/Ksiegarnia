@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - sklep@localhost" uuid="445cb626-2de9-4cf9-a383-9f2585a02b3a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:sklep</introspection-schemas>
+      <resolve-scope>*:sklep</resolve-scope>
+      <unqualified-resolve-schemas>*:sklep</unqualified-resolve-schemas>
+    </data-source>
+  </component>
+</project>

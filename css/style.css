@@ -1,0 +1,166 @@
+body
+{
+    background-image: url("../images/background6.jpg") ;
+    background-repeat: repeat;
+}
+.page_content
+{
+    margin:0 0;
+}
+@font-face {	font-family: 'Lobster';	src: url('Lobster/Lobster-Regular.ttf') format('truetype');}
+.header
+{
+    background-image: url("../images/header.jpg");
+    padding-left:30px;
+	padding-top:0;
+    position:relative;
+    height:150px;
+    z-index:200;
+    width:1300px;
+    background-color: brown;
+    font-family: 'Lobster', cursive;
+    color: darkkhaki;
+    font-size:110px;
+}
+.header a{text-decoration:none; display:block; color:darkkhaki}
+.header a:hover{
+    background-image:url("cssmenu/images/highlight-bg.png");
+    border-radius:40px;
+    height:30px;
+    color: #0064bc;
+}
+.koszyk
+{
+    position:relative;
+    float:right;
+    margin-right: 10px;
+    margin-top:15px;
+    padding-top:5px;
+    height: 60px;
+    width: 100px;
+    text-align:center;
+    color:darkkhaki;
+    font-size:20px;
+    border-radius:40px;
+    background-image:url("../images/menu-bg.png");
+
+}
+.zaloguj
+{
+    position:relative;
+    float:right;
+    margin-right: 10px;
+    height: 30px;
+    text-align:center;
+    width: 100px;
+    border-radius:40px;
+    background-image:url("../images/menu-bg.png");
+    font-size:20px;
+    margin-top:15px;
+
+}
+.zarejestruj
+{
+	position:relative;
+    text-decoration: none;
+	float:right;
+    margin-top:15px;
+    height:30px;
+    width:110px;
+    text-align:center;
+    border-radius: 40px;
+    margin-right: 10px;
+	font-size:20px;
+	background-image:url("../images/menu-bg.png");
+}
+.content
+{
+    position:relative;
+	float:left;
+	margin:0 169px;
+	color:yellow;
+    z-index:1;
+	background-image:url("../images/menu-bg.png");
+    background-repeat:repeat;
+	width:992px;
+    height: 900px;
+}
+.left_col a{text-decoration:none; display:block; }
+.left_col
+{
+    height: auto;
+    font-family: 'Lobster', cursive;
+    font-size:25px;
+    margin:20px 0 20px 10px;
+    padding:0 10px;
+    float:left;
+    width:706px;
+	background-image:url("cssmenu/images/highlight-bg.png");
+    background-repeat:repeat;
+    color: #0064bc;
+    border-radius:20px;
+}
+.left_col_left
+{
+    position:relative;
+    clear:both;
+    float:left;
+    padding:10px 0;
+    height:150px;
+    width:130px;
+}
+.left_col_right
+{
+    position:relative;
+    float:left;
+    padding:10px 0;
+    height:auto;
+    width:460px;
+}
+.opis
+{
+    position:relative;
+    float:left;
+    height:auto;
+    width:560px;
+}
+.right_col
+{
+    font-family: 'Lobster', cursive;
+    position:relative;
+    font-size:20px;
+    color: #0064bc;
+    padding:10px;
+    margin: 20px 10px;
+    float:left;
+    width:216px;
+    height:200px;
+    border-radius:20px;
+    background-color: moccasin;
+}
+.wyszykiwarka
+{
+    position:absolute;
+    right:0;
+    margin-right:50px;
+    width:300px;
+}
+.footer
+{
+    position:relative;
+    float:left;
+	background-color:brown;
+	width:1320px;
+    color:darkkhaki;
+    border-radius:15px;
+    padding:0 10px;
+}
+.left_footer
+{
+	float:left;
+
+}
+.right_footer
+{
+	float:right;
+}
